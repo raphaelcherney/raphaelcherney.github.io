@@ -1,4 +1,5 @@
 Agency Jekyll theme
+
 ====================
 
 Agency theme based on [Agency bootstrap theme ](http://startbootstrap.com/templates/agency/)
@@ -28,3 +29,4 @@ View this jekyll theme in action [here](https://y7kim.github.io/agency-jekyll-th
 
 =========
 For more details, read [documentation](http://jekyllrb.com/)
+This is a change I am making on the develop branch.
