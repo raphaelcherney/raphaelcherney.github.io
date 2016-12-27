@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   id="svg2984"
+   version="1.1"
+   inkscape:version="0.48.1 r9760"
+   sodipodi:docname="favicon.svg"
+   inkscape:export-filename="/Users/rcherney/Dropbox/favicon.png"
+   inkscape:export-xdpi="162.56"
+   inkscape:export-ydpi="162.56">
+  <defs
+     id="defs3" />
+  <sodipodi:namedview
+     inkscape:document-units="mm"
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="187.14286"
+     inkscape:cy="691.42857"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1280"
+     inkscape:window-height="756"
+     inkscape:window-x="52"
+     inkscape:window-y="460"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata4">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#cccccc;stroke:none;fill-opacity:1"
+       id="rect2990"
+       width="141.73228"
+       height="141.73228"
+       x="188.57143"
+       y="244.91562"
+       inkscape:export-filename="/Users/rcherney/Dropbox/favicon.jpg.png"
+       inkscape:export-xdpi="325.12"
+       inkscape:export-ydpi="325.12" />
+    <text
+       xml:space="preserve"
+       style="font-size:116.36394501px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:PT Sans Narrow;-inkscape-font-specification:PT Sans Narrow Bold Condensed"
+       x="203.95158"
+       y="357.57037"
+       id="text3760"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/Users/rcherney/Dropbox/favicon.jpg.png"
+       inkscape:export-xdpi="325.12"
+       inkscape:export-ydpi="325.12"><tspan
+         sodipodi:role="line"
+         id="tspan3762"
+         x="203.95158"
+         y="357.57037">RC</tspan></text>
+  </g>
+</svg>

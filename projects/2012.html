@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Raphael Cherney | engineering design</title>
+        <link rel="stylesheet" type="text/css" href="../style.css" />
+        <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=PT+Sans+Narrow&v1" />
+    </head>
+    <body id="projects">
+        <div id="header">
+            <h1><a href="../index.html">RAPHAEL CHERNEY</a></h1>
+            <h2><a href="../index.html">engineering design</a></h2>
+        </div>
+        <div id="navigation">
+            <ul>
+                <li id="navigation_home"><a href="../index.html">Home</a></li>
+                <li id="navigation_about"><a href="../about.html">About Me</a></li>
+                <li id="navigation_projects"><a href="../projects.html">Projects</a></li>
+                <li id="navigation_professional"><a href="../professional.html">Professional</a></li>
+                <li id="navigation_contact"><a href="../contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <div id="content">
+            <h1>2012</h1>
+            <div id="entry">
+                <table id="title">
+                    <tr>
+                        <td id="master">Optic Flow Control of Mico-Aerial Vehicle</td>
+                        <td id="detail">Sept 2012 - Feb 2013</td>
+                    </tr>
+                </table>
+                <p>
+                    I completed the work for my master's project in Radhika Napal's <a href="http://www.eecs.harvard.edu/ssr/">Self-Organizing Systems Research Group</a>
+                    at <a href="http://seas.harvard.edu/">Harvard University</a>. I worked on vision-based control of a 30 gram
+                    autonomous micro-aerial vehicle (MAV). We used specialized vision sensors to estimate the optic flow around the 
+                    helicopter. This information is then used to control the aircraft and ultimately for 
+                    more complex tasks such as egomotion estimation, mapping, and coordination.
+                    We investigated strategies for indoor navigation with fully on-board computation. 
+                    In order to test various sensor configurations 
+                    and control strategies, I created a 3-dimensional simulation of the MAV and 
+                    sensor ring using the Webots robotics simulator, along with a custom physics plugin.
+                </p>
+                <table id="image_set">
+                    <tr>
+                        <td>
+                            <img src="../images/59602.jpg" height=350 />
+                            <p id="caption">micro-aerial vehicle with custom sensor ring</p>
+                        </td>
+                    </tr>
+                </table>
+                <table id="collaborators">
+                    <tr>
+                        <td><img src="../images/icons/collaborate.svg" title="Collaborators" alt="Collaborators:" height=12 /></td>
+                        <td>Dr. Karthik Dantu, Dr. Richard Moore, Dr. Radhika Nagpal (faculty), Dr. Dario Floreano (faculty)</td>
+                    </tr>
+                </table>
+                <table id="files">
+                    <tr>
+                        <td><img src="../images/icons/files.svg" title="Files" alt="Files:" height=12 /></td>
+                        <td><a href="../files/master_project_report.pdf">report</a>, <a href="../files/master_project_presentation.pdf">final presentation</a></td>
+                    </tr>
+                </table>
+                <table id="videos">
+                    <tr>
+                        <td><img src="../images/icons/video.svg" title="Videos" alt="Videos:" height=12 /></td>
+                        <td><a href=#>simulation</a></td>
+                    </tr>
+                </table>
+                <table id="tags">
+                    <tr>
+                        <td><img src="../images/icons/tag.svg" title="Tags" alt="Tags:" height=12 /></td>
+                        <td>optic flow, autonomous robots, MAVs, indoor navigation, Webots simulation, image interpolation algorithm, Harvard University, EPFL</td>
+                    </tr>
+                </table>
+            </div>
+            <div id="entry">
+                <table id="title">
+                    <tr>
+                        <td id="synapse">Embedded System Development</td>
+                        <td id="detail">Jul 2012 - Sept 2012</td>
+                    </tr>
+                </table>
+                <p>
+                    As an electrical engineering intern at <a href="http://www.synapse.com/">Synapse Product Development</a>
+                    in Seattle, I helped prototype, design, test, repair, document,
+                    and deliver embedded systems for client projects. Details cannot be revealed under non-disclosure agreement.
+                </p>
+                <table id="image_set">
+                    <tr>
+                        <td>
+                            <img src="../images/17721.png" height=350 />
+                            <p id="caption">Synapse confidential</p>
+                        </td>
+                    </tr>
+                </table>
+                <table id="collaborators">
+                    <tr>
+                        <td><img src="../images/icons/collaborate.svg" title="Collaborators" alt="Collaborators:" height=12 /></td>
+                        <td>Synapse Product Development team</td>
+                    </tr>
+                </table>
+                <table id="tags">
+                    <tr>
+                        <td><img src="../images/icons/tag.svg" title="Tags" alt="Tags:" height=12 /></td>
+                        <td>product development, electrical engineering, embedded systems, circuit design</td>
+                    </tr>
+                </table>
+            </div>
+            <div id="entry">
+                <table id="title">
+                    <tr>
+                        <td id="fly">3D Computational Fly</td>
+                        <td id="detail">Feb 2012 - Jun 2012</td>
+                    </tr>
+                </table>
+                <p>
+                    This semester project, undertaken at the <a href="http://www.epfl.ch/">EPFL</a>
+                    <a href="http://lis.epfl.ch/">Laboratory of Intelligent Systems</a>,
+                    involved the development of a biologically-accurate 3D simulated
+                    <em>Drosophila melanogaster</em> model. We collected data on
+                    <em>Drosophila</em> morphology using image analysis. We then
+                    used this information to create a biologically-plausible
+                    fly model in the <a href="http://www.cyberbotics.com/">Webots</a> simulation
+                    software and developed controllers to coordinate the 36 degrees
+                    of freedom. Using biological data from high-speed video, we created a
+                    hand-tuned controller that matched the alternating tripod gait observed
+                    in <em>Drosophila</em>.  The control structure and model itself can be easily
+                    adapted to answer a variety of control-related questions related
+                    to biology and robotics.
+                </p>
+                <p>
+                    To test how well adapted the biological gait
+                    is for speed, we used particle swarm optimization (PSO) to optimize the
+                    phase difference between independent, hand-tuned leg oscillators
+                    to maximize the speed of locomotion. Through this we found four
+                    emergent gaits, all of which are faster than the hand-tuned controller.
+                    These novel gaits can be used to increase the walking speed of ground
+                    hexapod robots (sacrificing stability for speed).
+                    Our findings suggest that a real-world fitness function likely
+                    includes include additional factors such as energy consumption, stability,
+                    and maneuverability. Furthermore, our testing emphasizes the
+                    importance of claw adhesion in the development of insect walking.
+                </p>
+                <table id="image_set">
+                    <tr>
+                        <td>
+                            <img src="../images/44975.jpg" height=350 />
+                            <p id="caption"><em>Drosophila melanogaster</em> model</p>
+                        </td>
+                    </tr>
+                </table>
+                <table id="image_set">
+                    <tr>
+                        <td>
+                            <img src="../images/44765.png" height=220 />
+                            <p id="caption">leg degrees of freedom</p>
+                        </td>
+                        <td>
+                            <img src="../images/50674.jpg" height=220 />
+                            <p id="caption">model of right foreleg</p>
+                        </td>
+                    </tr>
+                </table>
+                <table id="image_set">
+                    <tr>
+                        <td>
+                            <img src="../images/04888.jpg" height=180 />
+                            <p id="caption">high speed video of live <em>Drosophila</em></p>
+                        </td>
+                        <td>
+                            <img src="../images/89101.jpg" height=180 />
+                            <p id="caption">3D model with hand-tuned controller</p>
+                        </td>
+                    </tr>
+                </table>
+                <table id="image_set">
+                    <tr>
+                        <td>
+                            <img src="../images/81800.png" height=250 />
+                            <p id="caption">k-means cluster analysis of PSO results (subset of dimensions)</p>
+                        </td>
+                        <td>
+                            <img src="../images/87727.jpg" height=250 />
+                            <p id="caption">evolution of fitness over time</p>
+                        </td>
+                    </tr>
+                </table>
+                <table id="collaborators">
+                    <tr>
+                        <td><img src="../images/icons/collaborate.svg" title="Collaborators" alt="Collaborators:" height=12 /></td>
+                        <td>Dr. Pavan Ramdya, Dr. Dario Floreano (faculty)</td>
+                    </tr>
+                </table>
+                <table id="files">
+                    <tr>
+                        <td><img src="../images/icons/files.svg" title="Files" alt="Files:" height=12 /></td>
+                        <td><a href="../files/lis_report.pdf">report</a>, <a href="../files/lis_final_presentation.pdf">final presentation</a></td>
+                    </tr>
+                </table>
+                <table id="videos">
+                    <tr>
+                        <td><img src="../images/icons/video.svg" title="Videos" alt="Videos:" height=12 /></td>
+                        <td><a href=#>evolved gaits</a></td>
+                    </tr>
+                </table>
+                <table id="tags">
+                    <tr>
+                        <td><img src="../images/icons/tag.svg" title="Tags" alt="Tags:" height=12 /></td>
+                        <td><em>Drosophila melanogaster</em>, insect locomotion, particle swarm optimization, gait analysis, robotics, Webots, Python programming, EPFL</td>
+                    </tr>
+                </table>
+            </div>
+            <div id="entry">
+                <table id="title">
+                    <tr>
+                        <td id="power_strip">Modular Power Strip</td>
+                        <td id="detail">Feb 2012 - May 2012</td>
+                    </tr>
+                </table>
+                <p>
+                    As an exercise in product design for my Computer-Aided Engineering course, we  refined the design of a modular power strip.
+                    Our design uses reconfigurable blocks to create a highly-adaptable power solution. 
+                    It allows the user to define the size, shape, orientation, and functions of the power strip based
+                    on their particular needs. The design has several unique interactions: it can easily be expanded with new plugs;
+                    it can be arranged to eliminate "lost" plugs; it can be adapted to fit in particular spaces; it can include
+                    blocks for specialized uses (USB chargers, remote switches, etc.); it can have additional switches to turn
+                    off a subset of plugs; and it can be updated based on evolving technological needs.
+                </p>
+                <table id="image_set">
+                    <tr>
+                        <td>
+                            <img src="../images/43427.jpg" height=300 />
+                            <p id="caption">engineering model of modular power strip</p>
+                        </td>
+                    </tr>
+                </table>
+                <table id="image_set">
+                    <tr>
+                        <td>
+                            <img src="../images/34849.png" height=180 />
+                            <p id="caption">concept sketch</p>
+                        </td>
+                        <td>
+                            <img src="../images/76684.jpg" height=180 />
+                            <p id="caption">possible configurations</p>
+                        </td>
+                    </tr>
+                </table>
+                <table id="image_set">
+                    <tr>
+                        <td>
+                            <img src="../images/12837.jpg" height=200 />
+                            <p id="caption">exploded view of assembly</p>
+                        </td>
+                        <td>
+                            <img src="../images/62837.jpg" height=200 />
+                            <p id="caption">power connections</p>
+                        </td>
+                    </tr>
+                </table>
+                <table id="collaborators">
+                    <tr>
+                        <td><img src="../images/icons/collaborate.svg" title="Collaborators" alt="Collaborators:" height=12 /></td>
+                        <td>Lukas Frisch, Philipp Favre, David Baumier, Yuan Xu</td>
+                    </tr>
+                </table>
+                <table id="files">
+                    <tr>
+                        <td><img src="../images/icons/files.svg" title="Files" alt="Files:" height=12 /></td>
+                        <td><a href="../files/modular_power_strip.pdf">report</a></td>
+                    </tr>
+                </table>
+                <table id="tags">
+                    <tr>
+                        <td><img src="../images/icons/tag.svg" title="Tags" alt="Tags:" height=12 /></td>
+                        <td>product design, power strip, modularity, CAD, design for manufacturing, EPFL</td>
+                    </tr>
+                </table>
+            </div>
+            <div id="entry">
+                <table id="title">
+                    <tr>
+                        <td id="lane_follow">Lane-Following Mobile Robot</td>
+                        <td id="detail">May 2012</td>
+                    </tr>
+                </table>
+                <p>
+                    As a mini project in our Mobile Robots course, two classmates and I created
+                    a simple, autonomous lane-following robot. Using an e-puck and iPhone camera, the
+                    robot detected lane boundaries and autonomously centered itself.
+                </p>
+                <table id="image_set">
+                    <tr>
+                        <td>
+                            <img src="../images/60938.jpg" height=350 />
+                            <p id="caption">modified e-puck robot</p>
+                        </td>
+                    </tr>
+                </table>
+                <table id="image_set">
+                    <tr>
+                        <td>
+                            <img src="../images/97031.jpg" height=180 />
+                            <p id="caption">detected lane boundaries</p>
+                        </td>
+                        <td>
+                            <img src="../images/95759.png" height=180 />
+                            <p id="caption">edges in Hough space</p>
+                        </td>
+                    </tr>
+                </table>
+                <table id="collaborators">
+                    <tr>
+                        <td><img src="../images/icons/collaborate.svg" title="Collaborators" alt="Collaborators:" height=12 /></td>
+                        <td>Axel Ringh, Isak Tjernberg</td>
+                    </tr>
+                </table>
+                <table id="files">
+                    <tr>
+                        <td><img src="../images/icons/files.svg" title="Files" alt="Files:" height=12 /></td>
+                        <td><a href="../files/lane_following_presentation.pdf">presentation</a></td>
+                    </tr>
+                </table>
+                <table id="videos">
+                    <tr>
+                        <td><img src="../images/icons/video.svg" title="Videos" alt="Videos:" height=12 /></td>
+                        <td><a href=#>demo</a></td>
+                    </tr>
+                </table>
+                <table id="tags">
+                    <tr>
+                        <td><img src="../images/icons/tag.svg" title="Tags" alt="Tags:" height=12 /></td>
+                        <td>lane detection, autonomous mobile robots, e-puck, MATLAB, computer vision, Hough transform, EPFL</td>
+                    </tr>
+                </table>
+            </div>
+            <div id="entry">
+                <table id="title">
+                    <tr>
+                        <td id="fish">Control of a Modular Robotic Fish</td>
+                        <td id="detail">May 2012</td>
+                    </tr>
+                </table>
+                <p>
+                    For this project, we programed a autonomous controller for a modular, robotic fish.
+                    The waterproof, boxfish-like robot is built using 3 modules from the <em>Salamandra robotica II</em>
+                    platform: a passive head, a midsection with pectoral fins, and a tail.  We implemented
+                    a sine-based controller (which represents a propagating wave from the body to the caudal fin)
+                    on the robotic fish to make the robot swim. We also implemented a closed-loop controller
+                    using an external tracking system to center the robot in the pool.
+                </p>
+                <table id="image_set">
+                    <tr>
+                        <td>
+                            <img src="../images/54715.png" height=120 />
+                            <p id="caption"><em>Salamandra robotica II</em> modular robot (source: EPFL Biorobotics Lab)</p>
+                        </td>
+                    </tr>
+                </table>
+                <table id="image_set">
+                    <tr>
+                        <td>
+                            <img src="../images/00238.png" height=150 />
+                            <p id="caption">robotic fish degrees of freedom</p>
+                        </td>
+                        <td>
+                            <img src="../images/64526.png" height=150 />
+                            <p id="caption">other robot configurations (source: EPFL Biorobotics Laboratory)</p>
+                        </td>
+                    </tr>
+                </table>
+                <table id="image_set">
+                    <tr>
+                        <td>
+                            <img src="../images/41614.png" height=350 />
+                            <p id="caption">position control with different proportional gain constants</p>
+                        </td>
+                    </tr>
+                </table>
+                <table id="collaborators">
+                    <tr>
+                        <td><img src="../images/icons/collaborate.svg" title="Collaborators" alt="Collaborators:" height=12 /></td>
+                        <td>Fr&eacuted&eacuteric Wilhelm</td>
+                    </tr>
+                </table>
+                <table id="files">
+                    <tr>
+                        <td><img src="../images/icons/files.svg" title="Files" alt="Files:" height=12 /></td>
+                        <td><a href="../files/modular_fish_report.pdf">report</a></td>
+                    </tr>
+                </table>
+                <table id="tags">
+                    <tr>
+                        <td><img src="../images/icons/tag.svg" title="Tags" alt="Tags:" height=12 /></td>
+                        <td>modular robotics, fish, swimming, <em>Salamandra robotica II</em>, autonomous control, vision-based tracking, EPFL</td>
+                    </tr>
+                </table>
+            </div>
+            <div id="entry">
+                <table id="title">
+                    <tr>
+                        <td id="of_control">Optic-Flow Based Mobile Robot Control</td>
+                        <td id="detail">Apr 2012</td>
+                    </tr>
+                </table>
+                <p>
+                    Optic-flow is the relative movement of the environment expressed in the reference
+                    frame of the vision system.  Intuitively we know that, when we are moving,
+                    objects which appear to move more quickly through part of our visual
+                    field are closer to us, while objects that move more slowly in the same visual region are farther away. Using this
+                    idea, insects are able to quickly and robustly traverse cluttered environments.
+                    We used this notion to create a simple, reactive mobile robot controller during
+                    a two-week project for one of my courses that the <a href="http://www.epfl.ch/">EPFL</a>.
+                    We measured the optic flow on each side of the robot using two linear cameras and used this information
+                    to control the speed and direction of the robot.  We successfully used this vision system
+                    to autonomously navigate through a complex, unknown corridor.
+                </p>
+                <table id="image_set">
+                    <tr>
+                        <td>
+                            <img src="../images/11647.jpg" height=350 />
+                            <p id="caption">e-puck robot with cameras</p>
+                        </td>
+                    </tr>
+                </table>
+                <table id="image_set">
+                    <tr>
+                        <td>
+                            <img src="../images/19180.jpg" height=180 />
+                            <p id="caption">textured corridor</p>
+                        </td>
+                        <td>
+                            <img src="../images/05875.png" height=180 />
+                            <p id="caption">path through corridor</p>
+                        </td>
+                    </tr>
+                </table>
+                <table id="collaborators">
+                    <tr>
+                        <td><img src="../images/icons/collaborate.svg" title="Collaborators" alt="Collaborators:" height=12 /></td>
+                        <td>Fr&eacuted&eacuteric Wilhelm</td>
+                    </tr>
+                </table>
+                <table id="files">
+                    <tr>
+                        <td><img src="../images/icons/files.svg" title="Files" alt="Files:" height=12 /></td>
+                        <td><a href="../files/optic_flow_report.pdf">report</a></td>
+                    </tr>
+                </table>
+                <table id="videos">
+                    <tr>
+                        <td><img src="../images/icons/video.svg" title="Videos" alt="Videos:" height=12 /></td>
+                        <td><a href=#>demo</a></td>
+                    </tr>
+                </table>
+                <table id="tags">
+                    <tr>
+                        <td><img src="../images/icons/tag.svg" title="Tags" alt="Tags:" height=12 /></td>
+                        <td>optic flow, autonomous mobile robots, e-puck, Braitenberg controller, EPFL</td>
+                    </tr>
+                </table>
+            </div>
+            <div id="entry">
+                <table id="title">
+                    <tr>
+                        <td id="nav">Mobile Robot Position Estimation and Navigation</td>
+                        <td id="detail">Mar 2012</td>
+                    </tr>
+                </table>
+                <p>
+                    In this two-week project, we programmed a controller for the e-puck mobile robot.
+                    We used a rotating distance sensor to observe the environment and compared sensor values
+                    to a grid of expected readings to estimate the position and orientation of the robot within
+                    a known arena.  Using this position estimate and a user-defined waypoint,
+                    we determined the path using a gradient ascent algorithm.
+                </p>
+                <table id="image_set">
+                    <tr>
+                        <td>
+                            <img src="../images/87298.png" height=200 />
+                            <p id="caption">visualization of rotating distance sensor (real resolution is 64 measurements/turn)</p>
+                        </td>
+                    </tr>
+                </table>
+                <table id="collaborators">
+                    <tr>
+                        <td><img src="../images/icons/collaborate.svg" title="Collaborators" alt="Collaborators:" height=12 /></td>
+                        <td>Fr&eacuted&eacuteric Wilhelm</td>
+                    </tr>
+                </table>
+                <table id="files">
+                    <tr>
+                        <td><img src="../images/icons/files.svg" title="Files" alt="Files:" height=12 /></td>
+                        <td><a href="../files/robot_navigation.pdf">report</a></td>
+                    </tr>
+                </table>
+                <table id="tags">
+                    <tr>
+                        <td><img src="../images/icons/tag.svg" title="Tags" alt="Tags:" height=12 /></td>
+                        <td>robot navigation, position estimation, e-puck, Braitenberg controller, gradient ascent, probability map, EPFL</td>
+                    </tr>
+                </table>
+            </div>
+            <div id="entry">
+                <table id="title">
+                    <tr>
+                        <td id="positioning">IR / Optical Relative Positioning System</td>
+                        <td id="detail">Oct 2011 - Jan 2012</td>
+                    </tr>
+                </table>
+                <p>
+                    As a semester project working with the <a href="http://www.epfl.ch/">EPFL</a>
+                    <a href="http://biorob.epfl.ch/">Biorobotics
+                    Laboratory</a>, I designed, built, and tested a relative
+                    positioning system for mobile robots that uses modulated
+                    infrared or visible light to determine the range and
+                    direction to a modulated source.  The sensor is insensitive
+                    to ambient light differences and other environmental
+                    factors.  The system also allows low bandwidth communication
+                    and can be used to detect obstacles (using an onboard
+                    transmitter). The device is smaller than existing systems,
+                    and be easily adjusted to suit new environments.
+                </p>
+                <table id="image_set">
+                    <tr>
+                        <td>
+                            <img src="../images/88956.jpg" height=400 />
+                            <p id="caption">prototype transceiver</p>
+                        </td>
+                    </tr>
+                </table>
+                <table id="image_set">
+                    <tr>
+                        <td>
+                            <img src="../images/13939.jpg" height=300 />
+                            <p id="caption">first hardware revision</p>
+                        </td>
+                        <td>
+                            <img src="../images/57859.png" height=300 />
+                            <p id="caption">circuit board layout</p>
+                        </td>
+                    </tr>
+                </table>
+                <table id="image_set">
+                    <tr>
+                        <td>
+                            <img src="../images/97226.png" height=250 />
+                            <p id="caption">block diagram of receiver</p>
+                        </td>
+                    </tr>
+                </table>
+                <table id="image_set">
+                    <tr>
+                        <td>
+                            <img src="../images/21303.png" height=250 />
+                            <p id="caption">distance calibration</p>
+                        </td>
+                        <td>
+                            <img src="../images/52182.png" height=250 />
+                            <p id="caption">detector sensitivity</p>
+                        </td>
+                    </tr>
+                </table>
+                <table id="collaborators">
+                    <tr>
+                        <td><img src="../images/icons/collaborate.svg" title="Collaborators" alt="Collaborators:" height=12 /></td>
+                        <td>Dr. Alessandro Crespi, Dr. Juke Ijspeert (faculty)</td>
+                    </tr>
+                </table>
+                <table id="files">
+                    <tr>
+                        <td><img src="../images/icons/files.svg" title="Files" alt="Files:" height=12 /></td>
+                        <td><a href="../files/biorob_final_presentation.pdf">final presentation</a>, <a href="../files/biorob_report.pdf">report</a>, <a href="../files/biorob_schematic.pdf">circuit schematic</a></td>
+                    </tr>
+                </table>
+                <table id="tags">
+                    <tr>
+                        <td><img src="../images/icons/tag.svg" title="Tags" alt="Tags:" height=12 /></td>
+                        <td>relative positioning, circuit design, SPICE simulation, filter design, embedded systems, infrared and optical communications, EPFL</td>
+                    </tr>
+                </table>
+            </div>
+            <div id="entry">
+                <table id="title">
+                    <tr>
+                        <td id="salamander">Simulated Robotic Salamander</td>
+                        <td id="detail">Sept 2011 - Jan 2012</td>
+                    </tr>
+                </table>
+                <p>
+                    As a laboratory project for my Models of Biological
+                    Sensory-Motor Systems course, we investigated the locomotion
+                    and control of a 23 degree of freedom simulated salamander
+                    robot. We examined the different parameters controlling both
+                    walking and swimming using a sine-based controller and a
+                    central pattern generator (CPG). We found that, when
+                    optimizing the average speed through systematic tests and
+                    particle swarm optimization, the optimal gait and swimming
+                    trajectories are similar to the movement of actual
+                    salamanders. We improved our salamander model by adding
+                    stereovision and, using a biologically-inspired vision
+                    system with a neural network, created an autonomous
+                    salamander capable of tracking and walking toward objects.
+                </p>
+                <table id="image_set">
+                    <tr>
+                        <td>
+                            <img src="../images/51889.jpg" height=400 />
+                            <p id="caption">walking salamander model</p>
+                        </td>
+                    </tr>
+                </table>
+                <table id="image_set">
+                    <tr>
+                        <td>
+                            <img src="../images/09006.jpg" height=285 />
+                            <p id="caption">comparison of actual salamander and optimized controllers</p>
+                        </td>
+                        <td>
+                            <img src="../images/98523.jpg" height=285 />
+                            <p id="caption">&nbsp</p>
+                        </td>
+                    </tr>
+                </table>
+                <table id="image_set">
+                    <tr>
+                        <td>
+                            <img src="../images/80100.png" height=200 />
+                            <p id="caption">configuration of central pattern generator model</p>
+                        </td>
+                    </tr>
+                </table>
+                <table id="image_set">
+                    <tr>
+                        <td>
+                            <img src="../images/48971.jpg" height=250 />
+                            <p id="caption">transition from walking to swimming</p>
+                        </td>
+                    </tr>
+                </table>
+                <table id="collaborators">
+                    <tr>
+                        <td><img src="../images/icons/collaborate.svg" title="Collaborators" alt="Collaborators:" height=12 /></td>
+                        <td>Fr&eacuted&eacuteric Wilhelm</td>
+                    </tr>
+                </table>
+                <table id="files">
+                    <tr>
+                        <td><img src="../images/icons/files.svg" title="Files" alt="Files:" height=12 /></td>
+                        <td><a href="../files/salamander_report_draft.pdf">draft report</a></td>
+                    </tr>
+                </table>
+                <table id="tags">
+                    <tr>
+                        <td><img src="../images/icons/tag.svg" title="Tags" alt="Tags:" height=12 /></td>
+                        <td>robotics, salamanders, robotic controllers, central pattern generators, particle swarm optimization, visual system, Webots, EPFL</td>
+                    </tr>
+                </table>
+            </div>
+            <p><a href="../projects/2011.html">previous year</a> | <a href="../projects.html">timeline</a> | <a href="../projects/2013.html">next year</a></p>
+        </div>
+        <div id="footer">
+            &copy; 2011-13 Raphael Cherney
+        </div>
+    </body>
+</html>

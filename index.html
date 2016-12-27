@@ -1,7 +1,81 @@
 <!DOCTYPE html>
+
 <html>
-<body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
-</body>
-</html> 
+    <head>
+        <title>Raphael Cherney | engineering design</title>
+        <link rel="stylesheet" type="text/css" href="style.css" />
+        <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=PT+Sans+Narrow&v1" />
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+        <script>
+            $(function() {
+                $("#slideshow > div:gt(0)").hide();
+                
+                setInterval(function() { 
+                  $('#slideshow > div:first')
+                    .fadeOut(100)
+                    .next()
+                    .fadeIn(500)
+                    .end()
+                    .appendTo('#slideshow');
+                },  3000);
+            });
+        </script>
+        <script type="text/javascript">
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-31164148-1']);
+            _gaq.push(['_trackPageview']);
+            
+            (function() {
+                var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+            })();
+        </script>
+    </head>
+    <body id="home">
+        <div id="header">
+            <h1><a href="index.html">RAPHAEL CHERNEY</a></h1>
+            <h2><a href="index.html">engineering design</a></h2>
+        </div>
+        <div id="navigation">
+            <ul>
+                <li id="navigation_home"><a href="index.html">Home</a></li>
+                <li id="navigation_about"><a href="about.html">About Me</a></li>
+                <li id="navigation_projects"><a href="projects.html">Projects</a></li>
+                <li id="navigation_professional"><a href="professional.html">Professional</a></li>
+                <li id="navigation_contact"><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <div id="content">
+            <div id="slideshow">
+                <div>
+                    <img src="images/03226.jpg" height=350 />
+                </div>
+                <div>
+                    <img src="images/44651.jpg" height=350 />
+                </div>
+                <div>
+                    <img src="images/55033.jpg" height=350 />
+                </div>
+                <div>
+                    <img src="images/35357.jpg" height=350 />
+                </div>
+                <div>
+                    <img src="images/88956.jpg" height=350 />
+                </div>
+                <div>
+                    <img src="images/58426.jpg" height=350 />
+                </div>
+                <div>
+                    <img src="images/76476.jpg" height=350 />
+                </div>
+                <div>
+                    <img src="images/51889.jpg" height=350 />
+                </div>
+            </div>
+        </div>
+        <div id="footer">
+            &copy; 2011-13 Raphael Cherney
+        </div>
+    </body>
+</html>
