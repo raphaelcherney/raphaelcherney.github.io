@@ -5,13 +5,19 @@
         <title>Raphael Cherney | engineering design</title>
         <link rel="stylesheet" type="text/css" href="style.css" />
         <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=PT+Sans+Narrow&v1" />
-        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
-        <script> 
-            $(document).ready(function(){
-                $(".panel").hide();
-                
-                $(".title").click(function(){
-                    $(this).next(".panel").slideToggle("slow");
+        <style>
+            .panel { display: none; overflow: hidden; }
+            .panel.open { display: block; }
+        </style>
+        <script>
+            document.addEventListener("DOMContentLoaded", function() {
+                document.querySelectorAll(".title").forEach(function(title) {
+                    title.addEventListener("click", function() {
+                        var panel = this.nextElementSibling;
+                        if (panel && panel.classList.contains("panel")) {
+                            panel.classList.toggle("open");
+                        }
+                    });
                 });
             });
         </script>
